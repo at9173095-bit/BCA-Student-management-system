@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Student - BCA Department</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>BCA Department</h1>
+        <p>Student Record Management System</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="register.html">New Registration</a>
+        <a href="search.html">Search Student</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Search Student Records</h2>
+            <p>Search registered students using their name or roll number.</p>
+
+            <form id="searchForm">
+                <label for="searchInput">Student Name or Roll Number:</label>
+                <input type="text" id="searchInput"
+                       placeholder="Enter name or roll number" required>
+
+                <button type="submit">Search Student</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Search Results</h2>
+            <div id="searchResults">
+                <p>Search for a student to display records.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 BCA Department Student Record Management System</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
